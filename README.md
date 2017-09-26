@@ -8,5 +8,5 @@ Unfortunately it doesn't seem to have a public source repository.
 Neither [sourceforge](https://sourceforge.net/projects/jsch/files/) nor [maven](http://search.maven.org/#search|gav|1|g%3A%22com.jcraft%22%20AND%20a%3A%22jsch%22) offer a git / svn / cvs repository.
 The repository at http://git.jcraft.com/jsch.git (the one listed in maven's pom file) only contains one commit and that is of version 0.1.43.
 
-So I've written two small scripts that will download and commit the source code zip archives from sourceforge and sequentially commit them to a newly created git repository.
+So I've written two small scripts that will download the source code zip archives from sourceforge and sequentially commit them to a newly created git repository.
 Obviously it is only a very rough history, but it better than nothing at all.
